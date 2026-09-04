@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 summary_prompt = PromptTemplate.from_template("""
 You are a brand analyst AI.
